@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to ReleaseNotGen!');
+    expect(page.getTitleText()).toEqual('Welcome to Release Note Generator!');
   });
 
   afterEach(async () => {
